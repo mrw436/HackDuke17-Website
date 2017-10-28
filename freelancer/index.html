@@ -10,6 +10,7 @@
 
     <title>ParentEdu - Connect with your child's education</title>
 
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,7 +24,30 @@
 
   </head>
 
+<!-- facebook login -->
   <body id="page-top">
+
+  	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1179136455521888',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -68,6 +92,7 @@
         <hr class="star-primary">
         <div class="row">
         	<fb:login-button align="center" scope="public_profile,email,user_location,publish_actions" onlogin="checkLoginState();"></fb:login-button>
+        	<div id="status"></div>
           <!-- <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
@@ -566,11 +591,11 @@
     }
     window.fbAsyncInit = function() {
     FB.init({
-        appId      : '737295826481160',
+        appId      : '1179136455521888',
         cookie     : true,  // enable cookies to allow the server to access
                         // the session
         xfbml      : true,  // parse social plugins on this page
-        version    : 'v2.8' // use graph api version 2.8
+        version    : 'v2.10' // use graph api version 2.8
     });
   // Now that we've initialized the JavaScript SDK, we call
   // FB.getLoginStatus().  This function gets the state of the
