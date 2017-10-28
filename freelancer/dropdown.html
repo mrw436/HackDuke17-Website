@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-header.pineapple {
+header:hi{
+  
 }
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
   <head>
 
     <meta charset="utf-8">
@@ -51,104 +69,83 @@ header.pineapple {
     </nav>
 
 
-
-   <!-- Portfolio Grid Section -->
-    <!-- <section id="portfolio">
-      <div class="container">
-        <h2 class="text-center">Log in</h2>
-        <hr class="star-primary">
-        <div class="row">
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/circus.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-    <!-- Contact Section -->
+    <!-- Dropdown Section -->
     <section class="success" id="contact">
       <div class="container">
         <h2 class="text-center">Contact Me</h2>
         <hr class="star-light">
-          <div class="col-lg-4 mx-auto">
-            <div class="dropdown" style="left:0;">
+          <div class="col-lg-6 mx-auto">
+            <center>
+              <div class="dropdown" style="left:1;">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              State
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">NC</a>
+                <!--<a class="dropdown-item" href="#">Another action</a>-->
+                <!--<a class="dropdown-item" href="#">Something else here</a>-->
+              </div>
+            </div>
+              <div class="dropdown" style="left:0;">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Grade Level
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#grade3">3</a>
                 <!--<a class="dropdown-item" href="#">Another action</a>-->
                 <!--<a class="dropdown-item" href="#">Something else here</a>-->
               </div>
             </div>
-            <div class="dropdown" style="float:right;">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                State
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">North Carolina</a>
-                <!--<a class="dropdown-item" href="#">Another action</a>-->
-                <!--<a class="dropdown-item" href="#">Something else here</a>-->
-              </div>
-            </div>
+          </center>
+          </div>
+      </div>
+    </section>
+
+
+    <!-- 3rd Grade Section -->
+    <section id="grade3">
+      <div class="container">
+        <h2 class="text-center">3rd Grade</h2>
+        <hr class="star-primary">
+          <div class="col-lg-10 mx-auto">
+            <a href="http://www.yahoo.com">here</a>
+            <table>
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+            </table>
           </div>
         
       </div>
