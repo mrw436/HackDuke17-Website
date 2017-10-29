@@ -4,10 +4,10 @@ TODO
 - [ ] finish DevPost (30 min)
 - [x] add questions to ask your kid to incorporate these lessons into your daily life (30 min)
 - [ ] add poll and make it embedded (30 min)
-- [ ] develop story and target user (1 hr)
+- [x] develop story and target user (1 hr)
 - [x] come up with url .space or .tech (5 min) (come tomorrow with 5 names each)
 - [x] change all of the footers (-> created at hackDuke, delete around the web, citations to ka and theme) (10 min)
-- [ ] cite the theme and kahn academy (5 min)
+- [x] cite the theme and kahn academy (5 min)
 - [ ] add share to facebook (15 min)
 
 Get here at 9:30 tomorrow!
@@ -33,9 +33,7 @@ Inequality during the Early Years: Child Outcomes and Readiness to Learn in Aust
 
 ## What it does
 
--LearnTogether connect parents to a structured learning environment that encourages discussion and community
-
--Parents are able to better understand from other parents how learning topics like Math is important even though they might not have learned it
+LearnTogether connect parents to a structured learning environment that encourages discussion and community. Parents can log in with Facebook, input their state and child's grade, and access resources and educational standards for whatever topic their student is learning. Users are able to interact with and learn from other parents, building their knowledge together and improving the education of everyne involved.
 
 ## How we built it
 
@@ -43,7 +41,7 @@ We built it using JavaScript and HTML/CSS/Bootstrap. We used the Facebook API to
 
 ## Challenges we ran into
 
- We also ran into challenges using the Facebook API without hosting it online but we eventually figured out that we needed to put localhost in the app domain.
+We ran into challenges using the Facebook API without hosting it online, but we eventually figured out that we needed to put localhost in the app domain.
 
 ## Accomplishments that we're proud of
 
@@ -55,5 +53,5 @@ We're super proud of the final product and that we made a way for parents to con
 
 ## What's next
 
-We would love to expand to more school districts and work with teachers to come up with more helpful activities for parents to learn and engage with eachother and their students.
+We would love to expand to more school districts and work with teachers to come up with more helpful activities for parents to learn and engage with both their students and each other.
 
