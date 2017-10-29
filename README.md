@@ -1,14 +1,16 @@
 # HackDuke 2017
 
 TODO
-- [ ] finish DevPost
-- [ ] add questions to ask your kid to incorporate these lessons into your daily life
-- [ ] add poll and make it embedded
-- [ ] develop story and target user
-- [ ] come up with url .space or .tech
-- [ ] change all of the footers
-- [ ] cite the theme and kahn academy
-- [ ] add share to facebook
+- [ ] finish DevPost (30 min)
+- [ ] add questions to ask your kid to incorporate these lessons into your daily life (30 min)
+- [ ] add poll and make it embedded (30 min)
+- [ ] develop story and target user (1 hr)
+- [ ] come up with url .space or .tech (5 min) (come tomorrow with 5 names each)
+- [ ] change all of the footers (-> created at hackDuke, delete around the web, citations to ka and theme) (10 min)
+- [ ] cite the theme and kahn academy (5 min)
+- [ ] add share to facebook (15 min)
+
+Get here at 9:30 tomorrow!
 
 ## Inspiration
 
