@@ -16,10 +16,15 @@ Find us at LEARN2GETHER.TECH AND LEARN2GETHER.SPACE
 
 ## Inspiration
 
+
+Inspired by the challenges children with poorly-educated parents face in learning and keeping up with their peers, we created LearnTogether to create a community of parents that can learn together and connect.
+
 How can the level of education of a parent impact the education of their child? Picture this scenario: if a student doesn’t understand a homework problem, they can ask their parents for help explaining the concept. It’s probably a familiar situation for many of us, but parents in underprivileged families may not be able to help with their children’s education. A study by the National Center for Education Statistics found that kindergartners without a parent that had completed high school scored consistently lower on reading, science, and math than students without any educational risk factors. 
 
 We are working to combat this educational inequality for the benefit of students and parents with LearnTogether, a website that provides both resources and a community for parents without secondary or higher education. It allows parents to follow along with their child’s education and to learn alongside their kids.
 
+
+Some Stats:
 National Center for Family Literacy: 47% of parents struggle to help their children with their homework because they don't understand the subject matter (http://www.familieslearning.org/)
 
 ![alt text](https://github.com/mrw436/HackDuke17-Website/blob/master/stats.png "")
@@ -28,7 +33,9 @@ Inequality during the Early Years: Child Outcomes and Readiness to Learn in Aust
 
 ## What it does
 
-Connects parents wanting to learn what their kids are learning to 
+-LearnTogether connect parents to a structured learning environment that encourages discussion and community
+
+-Parents are able to better understand from other parents how learning topics like Math is important even though they might not have learned it
 
 ## How we built it
 
