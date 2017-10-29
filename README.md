@@ -5,12 +5,14 @@ TODO
 - [x] add questions to ask your kid to incorporate these lessons into your daily life (30 min)
 - [ ] add poll and make it embedded (30 min)
 - [ ] develop story and target user (1 hr)
-- [ ] come up with url .space or .tech (5 min) (come tomorrow with 5 names each)
+- [x] come up with url .space or .tech (5 min) (come tomorrow with 5 names each)
 - [x] change all of the footers (-> created at hackDuke, delete around the web, citations to ka and theme) (10 min)
 - [ ] cite the theme and kahn academy (5 min)
 - [ ] add share to facebook (15 min)
 
 Get here at 9:30 tomorrow!
+
+Find us at LEARN2GETHER.TECH AND LEARN2GETHER.SPACE
 
 ## Inspiration
 
@@ -44,5 +46,5 @@ We're super proud of the final product and that we made a way for parents to con
 
 ## What's next
 
-We would love to 
+We would love to expand to more school districts and work with teachers to come up with more helpful activities for parents to learn and engage with eachother and their students.
 
