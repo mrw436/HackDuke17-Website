@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TITLE</title>
+    <title>Intro to Division</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
 
     <div class="container">
       <div class="buttonContainer">
-          <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Previous</button>
+          <button onclick="location.href='introMulti.html'" type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Previous</button>
           <button onclick="location.href='oneStepMD.html'" type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Next</button>
       </div>
     </div>
@@ -418,7 +418,7 @@
       </div>
     </div>
 
-    <!-- Script for Facebook API -->
+     <!-- Script for Facebook API -->
 
     <script>
     function statusChangeCallback(response) {
@@ -431,7 +431,8 @@
         if (response.status === 'connected') {
       // Logged into your app and Facebook.
               testAPI();
-                    getLocation();
+              loggedIn();
+                    //getLocation();
         }
         else {
         // The person is not logged into your app or we are unable to tell.
@@ -449,7 +450,8 @@
     }
     window.fbAsyncInit = function() {
     FB.init({
-        appId      : '737295826481160',
+
+        appId      : '1179136455521888',
         cookie     : true,  // enable cookies to allow the server to access
                         // the session
         xfbml      : true,  // parse social plugins on this page
@@ -491,27 +493,13 @@
         //'Thanks for logging in, ' + response.name + '!';
     });
     }
-       function getLocation() {
-        FB.api('/me?fields=location', function(response) {
-            console.log('Your current location is ' + response.location.name);
-            //location = response.location.name;
-            //document.getElementById('status').innerHTML =
-                //'Your current location is ' + response.location.name;
-        });
-        FB.api('me/feed', 'post', {
-            //name: "Maria Gund",
-            message: "I just picked up a can in New York City!",
-            //place: "106039436102339"
-        }, function (response) {
-            if (!response || response.error) {
-            //alert('Error occured');
-        } else {
-            /*alert('Post ID: ' + response.id);*/
-        }
-        }
-        );
+
+    function loggedIn()
+    {
+      window.location.href = "/dropdown.html";
     }
-	</script>
+    
+  </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
