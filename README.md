@@ -18,7 +18,7 @@ Parents that want to get involved with their kids education but don't know how t
 
 National Center for Family Literacy: 47% of parents struggle to help their children with their homework because they don't understand the subject matter (http://www.familieslearning.org/)
 
-![alt text](https://github.com/mrw436/HackDuke17-Website/blob/master/stats "")
+![alt text](https://github.com/mrw436/HackDuke17-Website/blob/master/stats.png "")
 
 Inequality during the Early Years: Child Outcomes and Readiness to Learn in Australia, Canada, United Kingdom and United States” in From Parents to Children: The Intergenerational Transmission of Advantage
 
