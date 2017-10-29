@@ -93,7 +93,7 @@
         <h2 class="text-center">Log in</h2>
         <hr class="star-primary">
         <div class="row">
-        	<fb:login-button align="center" data-size="large" scope="public_profile,email,user_location,publish_actions" onlogin="checkLoginState(); loggedIn()"></fb:login-button>
+        	<fb:login-button align="center" data-size="large" scope="public_profile,email,user_location,publish_actions" onlogin="checkLoginState()"></fb:login-button>
         	<div id="status"></div>
         </div>
       </div>
@@ -250,8 +250,8 @@
         if (response.status === 'connected') {
       // Logged into your app and Facebook.
               testAPI();
-              //loggedIn();
-                    //getLocation();
+              loggedIn();
+                    //getLocation();            
         }
         else {
         // The person is not logged into your app or we are unable to tell.
