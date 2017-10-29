@@ -22,7 +22,7 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <link rel="icon" type="image/png" sizes="96x96" href="apple.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/apple.png">
 
   </head>
 
@@ -93,7 +93,7 @@
         <h2 class="text-center">Log in</h2>
         <hr class="star-primary">
         <div class="row">
-        	<fb:login-button align="center" data-size="large" scope="public_profile,email,user_location,publish_actions" onlogin="checkLoginState(); loggedIn()"></fb:login-button>
+        	<fb:login-button align="center" data-size="large" scope="public_profile,email,user_location,publish_actions" onlogin="checkLoginState()"></fb:login-button>
         	<div id="status"></div>
         </div>
       </div>
@@ -106,10 +106,10 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p>Parentedu connects parents with other parents that are looking to support their kids in learning math. Parentedu finds your child's curriculum and puts you in touch with other parents that are learning the same topics so that you can share questions and tips about reinforcing what you're learning with your children.</p>
+            <p>ParentEdu connects parents with other parents that are looking to support their kids through learning math. Parentedu finds your child's curriculum and puts you in touch with other parents in the same situation.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p>Parentedu helps parents understand the value of learning math for parents that did not learn math as a child and puts them in touch with other parents that are doing the same.</p>
+            <p>ParentEdu helps parents understand the value of learning math and puts them in touch with other parents that are doing the same.</p>
           </div>
           <div class="col-lg-8 mx-auto text-center">
             <a href="#" class="btn btn-lg btn-outline">
@@ -250,8 +250,8 @@
         if (response.status === 'connected') {
       // Logged into your app and Facebook.
               testAPI();
-              //loggedIn();
-                    //getLocation();
+              loggedIn();
+                    //getLocation();            
         }
         else {
         // The person is not logged into your app or we are unable to tell.
