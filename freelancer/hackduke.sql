@@ -1,3 +1,5 @@
+CREATE DATABASE parentEdu;
+
 CREATE TABLE Parents(
 	username VARCHAR(256) NOT NULL PRIMARY KEY
 	name VARCHAR(256) NOT NULL 
@@ -24,3 +26,6 @@ CREATE TABLE Friends(
 	friend2 VARCHAR(256) NOT NULL REFERENCES Parents(username)
 	PRIMARY KEY(friend1, friend2)
 )
+
+INSERT INTO States VALUES
+('North Carolina');
