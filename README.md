@@ -16,8 +16,9 @@ Find us at LEARN2GETHER.TECH AND LEARN2GETHER.SPACE
 
 ## Inspiration
 
-Parents that want to get involved with their kids education but don't know how to and don't want to feel alone or dumb about it
+Inspired by the challenges children with poorly-educated parents face in learning and keeping up with their peers, we created LearnTogether to create a community of parents that can learn together and connect.
 
+Some Stats:
 National Center for Family Literacy: 47% of parents struggle to help their children with their homework because they don't understand the subject matter (http://www.familieslearning.org/)
 
 ![alt text](https://github.com/mrw436/HackDuke17-Website/blob/master/stats.png "")
@@ -26,7 +27,9 @@ Inequality during the Early Years: Child Outcomes and Readiness to Learn in Aust
 
 ## What it does
 
-Connects parents wanting to learn what their kids are learning to 
+-LearnTogether connect parents to a structured learning environment that encourages discussion and community
+
+-Parents are able to better understand from other parents how learning topics like Math is important even though they might not have learned it
 
 ## How we built it
 
